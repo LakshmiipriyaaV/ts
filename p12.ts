@@ -1,0 +1,16 @@
+var nm1 = 5;
+var nm2 = 9;
+console.log("Value of num1: " + nm1);
+console.log("Value of num2 :" + nm2);
+var rest = nm1 > nm2;
+console.log("num1 greater than num2: " + rest);
+rest = nm1 < nm2;
+console.log("num1 lesser than num2: " + rest);
+rest = nm1 >= nm2;
+console.log("num1 greater than or equal to  num2: " + rest);
+rest = nm1 <= nm2;
+console.log("num1 lesser than or equal to num2: " + rest);
+rest = nm1 == nm2;
+console.log("num1 is equal to num2: " + rest);
+rest = nm1 != nm2;
+console.log("num1 is not equal to num2: " + rest);
